@@ -1,0 +1,43 @@
+# Maven
+target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.gradle/
+build/
+**/src/main/**/build/
+**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

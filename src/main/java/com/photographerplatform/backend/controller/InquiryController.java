@@ -15,7 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.photographerplatform.backend.entity.Inquiry;
 import com.photographerplatform.backend.service.InquiryService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+	    "http://localhost:5173",
+	    "https://lensconnect-frontend.vercel.app"
+	})
 @RestController
 @RequestMapping("/api/inquiries")
 public class InquiryController {

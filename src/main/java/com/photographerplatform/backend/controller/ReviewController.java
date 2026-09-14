@@ -15,7 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.photographerplatform.backend.entity.Review;
 import com.photographerplatform.backend.service.ReviewService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+	    "http://localhost:5173",
+	    "https://lensconnect-frontend.vercel.app"
+	})
 @RestController
 @RequestMapping("/api/reviews")
 public class ReviewController {

@@ -18,7 +18,10 @@ import org.springframework.web.multipart.MultipartFile;
 import com.photographerplatform.backend.entity.PortfolioItem;
 import com.photographerplatform.backend.service.PortfolioService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+	    "http://localhost:5173",
+	    "https://lensconnect-frontend.vercel.app"
+	})
 @RestController
 @RequestMapping("/api/portfolio")
 public class PortfolioController {

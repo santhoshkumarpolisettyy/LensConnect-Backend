@@ -20,7 +20,10 @@ public class Photographer {
     private String fullName;
     private String businessName;
     private String email;
+
+    @JsonIgnore
     private String password;
+
     private String phoneNumber;
 
     private String city;
